@@ -1,0 +1,23 @@
+<section id="header" style="padding: 10px 20px; min-height: auto">
+  <div class="header wrap">
+    <span class="header left-side">
+      <a class="site home" href="{{- `/` | relLangURL -}}" style="padding-top: 8px; display: inline-block">
+        {{- $logo := site.Params.logo -}}
+        {{- if $logo -}}
+          <img class="site logo" src="{{- $logo | relURL -}}" alt />
+        {{- end -}}
+        <span class="site name">Coding Scraps from <code>jaredh159</code></span>
+      </a>
+    </span>
+    <a href="https://github.com/jaredh159" class="header right-side" style="display: flex; align-items: center">
+        {{- partial "navigation-items.html" site.Params.nav -}}
+        <span>Github</span>
+        <img src="https://avatars.githubusercontent.com/u/7050938?s=80&v=4" style="border-radius: 3px; margin-left: 8px" width="40" height="40" alt="" />
+    </a>
+  </div>
+  {{- with site.Params.slogan -}}
+      <div class="site slogan">
+        <span class="title">{{- . | safeHTML -}}</span>
+      </div>
+  {{- end -}}
+</section>
