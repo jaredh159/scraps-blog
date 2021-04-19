@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "jaredh159 coding scraps"
+theme = "hugo-notepadium"
+
+[markup]
+  [markup.highlight]
+    style = "monokailight"
