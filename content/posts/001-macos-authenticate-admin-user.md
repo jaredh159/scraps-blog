@@ -53,3 +53,8 @@ In the thread where I was hashing this out on the Apple dev forum, Quinn helpful
 some sample code for the lower-level (and extremely scantily documented, at least in
 Swift) `AuthorizationCreate()` function, here's
 [the link](https://developer.apple.com/forums/thread/675712).
+
+**Important Note:** This will _not work_ if your _app is sandboxed_, because of
+privilege-escalation concerns. And if you forget to disable app-sandbox, you'll just get
+cryptic non-helpful permission denied errors that don't mention anything about app
+sandbox.
