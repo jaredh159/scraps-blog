@@ -2,6 +2,9 @@
 title: 'Querying Running Applications in MacOS'
 date: 2021-04-23T16:26:46-04:00
 slug: 'querying-running-applications-in-macos'
+categories:
+  - Swift
+  - MacOS
 ---
 
 If you want to list out all of the currently running applications, you can do:

@@ -2,6 +2,9 @@
 title: 'Request Accessibility Control for a MacOS App'
 date: 2021-04-23T16:18:58-04:00
 slug: macos-request-accessibility-control
+categories:
+  - Swift
+  - MacOS
 ---
 
 If you need your app to have access to global events (like keystrokes) which require that
