@@ -7,7 +7,10 @@ categories:
   - MacOS
 ---
 
-If you want to list out all of the currently running applications, you can do:
+If you want to list out all of the currently running applications in a MacOS app, you can
+do:
+
+<!--more-->
 
 ```swift
 for app in NSWorkspace.shared.runningApplications {
