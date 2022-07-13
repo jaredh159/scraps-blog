@@ -1,0 +1,11 @@
+{{- $copyright := . -}}
+<div class="footer-wrap">
+  <p class="copyright">{{- $copyright -}}</p>
+  <p class="powerby" style="padding: 0 2em">
+    <span>Projects:&nbsp;</span>
+    <a href="https://gertrude.app">Gertrude &mdash; Internet Safety for macOS</a>
+    <span>&nbsp;|&nbsp;</span>
+    <a href="https://spendable.id">Spendable &mdash; Dead-simple Budgeting App</a>
+  </p>
+  {{- partial "beian.html" . -}}
+</div>
