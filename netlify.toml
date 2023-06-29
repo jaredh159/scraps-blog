@@ -1,2 +1,56 @@
 [build]
   environment = { HUGO_VERSION = "0.82.0" }
+
+[[redirects]]
+  from = "/posts/006-protocol-static-func-selection-quirk/"
+  to = "https://gertrude.app/blog/swift-protocol-static-func-selection-quirk"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/vapor-swift-postgres-github-action-test-workflow/"
+  to = "https://gertrude.app/blog/vapor-swift-postgres-github-action-test-workflow"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/querying-running-applications-in-macos/"
+  to = "https://gertrude.app/blog/querying-running-applications-in-macos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/macos-request-accessibility-control/"
+  to = "https://gertrude.app/blog/macos-request-accessibility-control"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/macos-user-id-from-sourceappauditoken/"
+  to = "https://gertrude.app/blog/macos-user-id-from-sourceappaudittoken"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/macos-authenticate-admin-user/"
+  to = "https://gertrude.app/blog/macos-authenticate-admin-user"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts"
+  to = "https://gertrude.app/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/"
+  to = "https://gertrude.app/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/"
+  to = "https://gertrude.app/blog"
+  status = 301
+  force = true
